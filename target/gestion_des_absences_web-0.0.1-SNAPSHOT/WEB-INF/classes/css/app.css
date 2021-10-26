@@ -1,0 +1,474 @@
+
+/* Nawal Ait Ahamed and Amine AYACHE Added */
+footer{
+border-top: 2.5px solid #fff;
+background:#3838b3;
+}
+
+.list-footer,.list-footer a {
+    color:#fff!important;
+    font-family: monospace,'Arial blod';
+    font-size: 18px;
+}
+.social-media-list a i{color:#fff;font-size:120%;}
+.widget-main{
+    color:#04408C;
+}
+.widget-title{
+ font-family: "Arial Black";
+ font-size: medium;
+ color:white;
+ margin-bottom:10px;
+}
+
+
+.container{padding-left:0!important;padding-right:0!important;}
+.footer-copyright{
+ background:#353698;
+ color:#fff ;
+ border-top:1px groove #fff ;
+ font-family: monospace,'Arial blod';
+ position: relative;
+ height: 100%;
+ width: 100%;
+ bottom:0;
+ right:0;
+ left:0;
+}
+
+.p-copyright{
+  padding-top: 1ch;
+}
+.redColor{color:#e55764!important;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.social-media-list{display:inline-block;padding-right:5px;}
+@media (max-width:600px){.p-copyright{font-size:0.55rem!important;}}
+@media (max-width:800px){.widget-main{padding-left:15px!important;}}
+.swal-title,.swal-text{font-family: monospace,'Arial blod';}
+html{background-color:#eff3f6;}
+/* End Nawal Ait Ahamed and Amine AYACHE Added */
+
+/* Mohammed Amine added for Scroll Bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius:10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2f2fb4;
+  border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #353698;
+  border-radius:10px;
+}
+/* End Mohammed Amine added for Scroll Bar */
+
+/* Mohammed Amine AYACHE Added : Announcement */
+.w-90{width:90%!important;}
+.w-95{width:90%!important;}
+.mb-10{margin-bottom:10px!important;}
+.mt-10{margin-top:10px!important;}
+.mt-30{margin-top:30px!important;}
+.mt-45{margin-top:45px!important;}
+*:not(i):not(ul):not(a):not(li):not(.widget-title):not(h3){font-family: monospace;}
+@media (min-width:800px){#annoncesDatatable_length,#modules_length,#courses_length,#history_length{position:relative;top:35px;width: 50%;}.dt-buttons{position:relative;top:30px;width: 50%;}}
+textarea{resize:none!important;}
+.hidden{display:none!important;}
+.shown{display:block!important;}
+.textareaDialog{height: 90px;overflow: auto;}
+#uploaded{display:inline!important;}
+@media (min-width:800px){.w-dialog{width:75%!important;}}
+@media (max-width:800px){.w-dialog{width:100%!important;}#addNews{margin-bottom:10px;}}
+span.Lin____in{font-family: inherit!important;}
+body{background-color:#eff3f6!important;}
+table.dataTable tbody tr.selected {
+    color: white;
+    background-color: #ff8484!important;
+}
+.contentView,.download,.teacherView,.videoShowingCustom{background-color: #2185d0; font-size: 125%; padding: 4px; border-radius: 20%; color: white;cursor:pointer!important;}
+.download{background-color: #28a745!important;}
+#tempLoader{position:fixed!important;top: 50%!important;bottom: 50%!important;left: 50%!important;right: 50%!important;}
+.loadingImage {
+  background: transparent url('http://smallenvelop.com/demo/image-loading/spinner.gif') center no-repeat;
+}
+.nv____m{z-index:1000!important;}
+@media (max-width:750px){.mt-45{margin-top:105px!important;}}
+/* End Mohammed Amine AYACHE Added : Announcement */
+
+
+/* Nawal Ait Ahmed added : contactez-nous */
+.contact-contact .container {
+  background-color: #fff;
+  padding: 15px;
+  width: 60%;
+  margin: auto;
+  
+}
+
+.tit-hd{
+    text-align: center;
+    font-size: 10px;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+    letter-spacing: .340em;
+     text-transform: uppercase;
+    color: #686868;
+    
+}
+
+
+.contactusInput,.contactusTextArea {
+    
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 10px; 
+  margin-bottom: 15px; 
+}
+.contactusTextArea{resize:none;height:100px;}
+
+/* Style the submit button with a specific background color  */
+.sub .ui.positive.button{
+  background-color: #21BA45;
+  color: white;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+.sub{
+     text-align: center;
+}
+
+/* end Nawal Ait Ahmed Added : contactez-nous */
+
+/* Mohammed Amine AYACHE added :Nav bar */
+.nv___l__ccc{z-index:10000!important;top:0px!important;}
+.white{color:white!important;}
+.uppercase{text-transform:uppercase!important;}
+@media (min-width:800px){.publisherAnn{display:inline-block;}.w-d-75{width:75%!important;}}
+@media (max-width:800px){.publisherAnn{display:block;margin-top:5px;}.mobile-smaller-font{font-size:120%!important;}}
+@media (min-width:900px){.w-d-50{width:50%!important}}
+@media (max-width:900px){.w-m-90{width:90%!important;}}
+.separateAnn{border-top: 0.2px solid #00000066;padding: 10px;}
+.moreAnn{margin-bottom:10px!important;}
+/* end Mohammed Amine AYACHE added : Navbar */
+
+
+
+/* Nawal Ait Ahmed Added :home page */
+
+.thumbnail{
+    margin: 10px 0px 30px 0px ;
+    padding:0;
+    background-color: #fff;
+    
+}
+
+
+.bloc-text {
+    text-align: justify;
+    padding: 20px;
+    
+  
+}
+
+.bloc-title{
+    background-color:  #3838b3;
+    text-align: left;
+    padding: 6px;
+    text-transform: uppercase;
+    margin-top:20px;
+}
+.title-pr{
+    font-size: 25px ;
+    margin: 0 5px 4px;
+    letter-spacing: 1.1px;
+    font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #fff;  
+}
+
+.btn-primary {
+    color: #3838b3;
+    background-color: #fff;
+    
+}
+
+
+
+
+
+.container-box {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.list-boxed-wrap {
+    padding: 20px 0;
+    background: #fff;
+    color: white;
+    
+}
+
+.list{
+    padding: 10px 25px ;
+     margin: auto;
+}
+
+.blog-list-post {
+    padding-bottom: 15px;
+    border-bottom: 1px dotted;
+    background: white;
+
+}
+.blog-list-thumb {
+    float: left;
+    width: 140px;
+    height: 60px;
+    display: block;
+    margin-left: 15px ;
+    margin-right: 15px;
+    background: #3838b3;
+    align-content: center;
+}
+
+
+.act-img{
+    width: 120px;
+    height: 50px;
+    margin: 10px 10px 30px;
+    
+    
+}
+.blog-date{
+    padding: 10px ;
+    color: grey;
+    
+}
+
+.views-more-link {
+    position: relative;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+}
+.blog-list-details{
+  margin: 0px 20px;
+}
+.more {
+    color: #555555;
+    transition: all 0.5s;
+    font-size: 11pt;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+
+
+
+.title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.news-item {
+  height: 332px;
+  background-color: #fff;
+  border: 2px dashed transparent;
+  display: block;
+  transition: all 0.9s;
+  padding: 5px;
+}
+.content {
+  clear: both;
+  color: #000;
+}
+
+
+
+/* end */
+/* Mohammed amine added : */
+.w-160px{width:160px;}
+ul.cer{list-style-type: circle;}
+html {scroll-behavior: smooth;}
+.fz-125{font-size:125%!important;}
+@media (min-width:900px){.modal-sm{width:50%!important}}
+.dropzone {
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#files {
+    /*overflow-y: scroll !important;
+    min-height: 320px;*/
+}
+@media (min-width: 768px) {
+	#files {
+		min-height: 0;
+	}
+}
+#debug {
+	overflow-y: scroll !important;
+	height: 180px;	
+}
+
+.dm-uploader {
+	border: 0.25rem dashed #A5A5C7;
+	text-align: center;
+}
+.dm-uploader.active {
+	border-color: red;
+
+	border-style: solid;
+}
+.courseTitle{display:inline-block;}
+.textareaWidth{height:150px;overflow:scroll;padding:5px;margin:10px;}
+@media (max-width:700px){.h-m-300{height:300px!important;width:100%!important;}}
+@media (min-width:700px){.h-m-300{width:90%!important;}}
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+.greenColor{color:green!important;}
+.yellowColor{color:#ffc107!important;}
+.progressParent{background-color: #f1f1f1!important;}
+.progressSuccess{color: #fff!important; background-color: #4CAF50!important;padding: 0.01em 16px;height:7px;border-radius: 50px;}
+.progressError{color: #fff!important; background-color: #f44336!important;padding: 0.01em 16px;height:7px;border-radius: 50px;}
+.progressPrimary{color: #fff!important; background-color: #2196F3!important;padding: 0.01em 16px;height:7px;border-radius: 50px;}
+@media (min-width:700px){.mt-m-40{margin-top:40px!important;top:40%!important;left:25%!important;width:50%!important;}}
+@media (max-width:700px){.mt-m-40{top: 20%!important;left:5%!important;width:90%!important;}}
+.ch__r{width:200px!important;}
+.tooltipCustom {
+  display: inline;
+  position: relative;
+}
+
+.tooltipCustom:hover {
+  color: #c00;
+  text-decoration: none;
+}
+
+.tooltipCustom:hover:after {
+  background: #111;
+  background: rgba(0, 0, 0, .8);
+  border-radius: .5em;
+  bottom: 1.35em;
+  color: #fff;
+  content: attr(title);
+  display: block;
+  left: 1em;
+  padding: .3em 1em;
+  position: absolute;
+  text-shadow: 0 1px 0 #000;
+  white-space: nowrap;
+  z-index: 98;
+}
+
+.tooltipCustom:hover:before {
+  border: solid;
+  border-color: #111 transparent;
+  border-color: rgba(0, 0, 0, .8) transparent;
+  border-width: .4em .4em 0 .4em;
+  bottom: 1em;
+  content: "";
+  display: block;
+  left: 2em;
+  position: absolute;
+  z-index: 99;
+}
+i.fa.fa-question.customContentTooltip {
+    margin-left: 15px;
+    background-color: #828282;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    width: 22px;
+}
+.right {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    width: 100%;
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+@media (min-width:700px){.textareaWidth{width:60%;}}
+@media (max-width:700px){.textareaWidth{width:100%;}}
+.bottom{position:absolute!important;bottom:0px;}
+@media (min-width:700px){.examsWidth{width:80%;}}
+@media (max-width:700px){.examsWidth{width:90%;}}
+@media (min-width:700px){.examsWidthTextarea{width:50%;height:150px;}}
+@media (max-width:700px){.examsWidthTextarea{width:90%;height:150px;}}
+.fixedBar{position: fixed; background: #353698; z-index: 1049;}
+#toTheTop{position:fixed;right:10px;bottom:20px;height:70px;cursor:pointer;z-index:1000;background-color:white;border-radius:50%;}
+.shaking {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.badge-exam{height:500px;}
+.noteCont{font-size:100px;height: 100px;}
+.noteSlash{position:relative;top:3px;}
+.noteTotal{position:relative;top:8px;}
+.bg-red{background-color: #dc3545!important;}
+.Outline_________Icon__________menu01 img{width:30px;height:30px;}
+/* End Mohammed Amine added */
+
+.img___uml_cc {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.img___uml {
+    width: 80%;
+}
+.modal-header {
+    flex-direction: row-reverse!important;
+}
+/*Hamdaoui Tayeb*/
+@media(max-width: 750px){
+    .carousel{
+        margin-top:17%;
+        width: 100vw;
+        height:100%;
+        position: relative!important;
+        left: -22%;
+    }
+}
+
+
+
+
+
+
+
+
+
+

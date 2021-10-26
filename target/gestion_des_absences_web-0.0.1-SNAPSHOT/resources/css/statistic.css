@@ -1,0 +1,109 @@
+/*! CSS Used from: http://crm.toubkalit.com/assets/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+h5{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h5{font-size:1.25rem;}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-3,.col-9,.col-lg-12,.col-lg-6,.col-xl-4,.col-xl-8{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.col-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;}
+.col-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%;}
+@media (min-width:992px){
+.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+.col-lg-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:1200px){
+.col-xl-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;}
+.col-xl-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%;}
+}
+.card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem;}
+.card-body{-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem;}
+.badge{display:inline-block;padding:.25em .4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem;}
+.badge:empty{display:none;}
+.d-flex{display:-ms-flexbox!important;display:flex!important;}
+.flex-row{-ms-flex-direction:row!important;flex-direction:row!important;}
+.align-self-center{-ms-flex-item-align:center!important;align-self:center!important;}
+.mt-0{margin-top:0!important;}
+.mb-0{margin-bottom:0!important;}
+.mb-3{margin-bottom:1rem!important;}
+.mb-4{margin-bottom:1.5rem!important;}
+.text-right{text-align:right!important;}
+.text-muted{color:#6c757d!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+p{orphans:3;widows:3;}
+.badge{border:1px solid #000;}
+}
+/*! CSS Used from: http://crm.toubkalit.com/assets/css/icons.css */
+/*! CSS Used from: http://crm.toubkalit.com/assets/css/style.css */
+h5{margin:10px 0;font-weight:600;}
+*{outline:none!important;}
+.header-title{font-size:16px;}
+.row{margin-right:-10px;margin-left:-10px;}
+.col-3,.col-9,.col-lg-12,.col-lg-6,.col-xl-4,.col-xl-8{padding-right:10px;padding-left:10px;}
+.text-muted{color:#a1a7cc!important;}
+.badge{font-weight:500;}
+.m-l-10{margin-left:10px;}
+.card{border:none;-webkit-box-shadow:1px 0px 20px rgba(0, 0, 0, 0.05);box-shadow:1px 0px 20px rgba(0, 0, 0, 0.05);margin-bottom:20px;}
+.bg-soft-success{background-color:rgba(41, 179, 72, 0.15)!important;color:#29b348!important;}
+.header-title{margin-bottom:8px;text-transform:uppercase;letter-spacing:0.02em;font-size:14px;}
+.badge:empty{padding:0;}
+.round{line-height:60px;color:#242c6d;width:60px;height:60px;font-size:26px;display:inline-block;font-weight:400;border:1px solid #f8f9fa;text-align:center;border-radius:10%;background:rgba(36, 44, 109, 0.02);}
+*! CSS Used from: http://crm.toubkalit.com/assets/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+h5{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+h5{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h5{font-size:1.25rem;}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-3,.col-9,.col-lg-12,.col-lg-6,.col-xl-4,.col-xl-8{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.col-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;}
+.col-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%;}
+@media (min-width:992px){
+.col-lg-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+.col-lg-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;}
+}
+@media (min-width:1200px){
+.col-xl-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%;}
+.col-xl-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%;}
+}
+.card{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem;}
+.card-body{-ms-flex:1 1 auto;flex:1 1 auto;padding:1.25rem;}
+.badge{display:inline-block;padding:.25em .4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25rem;}
+.badge:empty{display:none;}
+.d-flex{display:-ms-flexbox!important;display:flex!important;}
+.flex-row{-ms-flex-direction:row!important;flex-direction:row!important;}
+.align-self-center{-ms-flex-item-align:center!important;align-self:center!important;}
+.mt-0{margin-top:0!important;}
+.mb-0{margin-bottom:0!important;}
+.mb-3{margin-bottom:1rem!important;}
+.mb-4{margin-bottom:1.5rem!important;}
+.text-right{text-align:right!important;}
+.text-muted{color:#6c757d!important;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+p{orphans:3;widows:3;}
+.badge{border:1px solid #000;}
+}
+/*! CSS Used from: http://crm.toubkalit.com/assets/css/icons.css */
+.mdi{display:inline-block;font:normal normal normal 24px/1 "Material Design Icons";font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transform:translate(0, 0);transform:translate(0, 0);}
+.mdi-account-multiple-plus:before{content:"\F010";}
+.mdi-cart:before{content:"\F110";}
+.mdi-eye:before{content:"\F208";}
+.mdi-truck-delivery:before{content:"\F53E";}
+/*! CSS Used from: http://crm.toubkalit.com/assets/css/style.css */
+h5{margin:10px 0;font-weight:600;}
+*{outline:none!important;}
+.header-title{font-size:16px;}
+.row{margin-right:-10px;margin-left:-10px;}
+.col-3,.col-9,.col-lg-12,.col-lg-6,.col-xl-4,.col-xl-8{padding-right:10px;padding-left:10px;}
+.text-muted{color:#a1a7cc!important;}
+.badge{font-weight:500;}
+.m-l-10{margin-left:10px;}
+.card{border:none;-webkit-box-shadow:1px 0px 20px rgba(0, 0, 0, 0.05);box-shadow:1px 0px 20px rgba(0, 0, 0, 0.05);margin-bottom:20px;}
+.bg-soft-success{background-color:rgba(41, 179, 72, 0.15)!important;color:#29b348!important;}
+.header-title{margin-bottom:8px;text-transform:uppercase;letter-spacing:0.02em;font-size:14px;}
+.badge:empty{padding:0;}
+.round{line-height:60px;color:#242c6d;width:60px;height:60px;font-size:26px;display:inline-block;font-weight:400;border:1px solid #f8f9fa;text-align:center;border-radius:10%;background:rgba(36, 44, 109, 0.02);}
+/*! CSS Used fontfaces */
+.ui.circular.images .image, .ui.circular.image, .ui.circular.images .image > *, .ui.circular.image > *{border-radius:0!important;}
