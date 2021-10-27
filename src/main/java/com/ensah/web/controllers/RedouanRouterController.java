@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class RedouanRouterController {
+
 	@GetMapping("/ca/fiche")
 	public String showAbsenceForm() {
 		return "CadreAdmin/index";
@@ -16,5 +17,22 @@ public class RedouanRouterController {
 	@GetMapping("/ca/etudiantListeAbsences/{id}")
 	public String showAbsencesStudent() {
 		return "CadreAdmin/showAbsenceEtudiant";
+	}
+	@GetMapping("/justification/add")
+	public String addJustification() {
+		return "justification/addJustification";
+	}
+	@GetMapping("/profil")
+	public String profilChange() {
+		return "profil/profil";
+	}
+	@GetMapping("/reclamation")
+	public String reclamation() {
+		return "reclamation/student";
+	}
+	@GetMapping("/messages")
+	public String messages()
+	{
+		return "messenger/index";
 	}
 }

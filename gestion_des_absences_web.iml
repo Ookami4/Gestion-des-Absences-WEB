@@ -12,7 +12,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="gestion_des_absences_web" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>

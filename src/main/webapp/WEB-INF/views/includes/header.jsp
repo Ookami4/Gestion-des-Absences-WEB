@@ -59,10 +59,6 @@
         <!-- Main Pure CSS -->
         <link rel="stylesheet" href="<c:url value="/resources/css/main.css" />" />       
         <script src="<c:url value="/resources/js/chartjs.js" />"></script>
-		<link href="<c:url value="/resources/cssTeam/Omar.css" />" rel="stylesheet">
-        <link href="<c:url value="/resources/cssTeam/Tayeb.css" />" rel="stylesheet">
-        <link href="<c:url value="/resources/cssTeam/Mohcine.css" />" rel="stylesheet">
-        <link href="<c:url value="/resources/cssTeam/Amine.css" />" rel="stylesheet">
         <link href="<c:url value="/resources/cssTeam/Redouane.css" />" rel="stylesheet">
 	    <script>
 	    	var contextPathName = "${pageContext.request.contextPath}";
