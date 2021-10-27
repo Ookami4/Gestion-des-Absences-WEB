@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class AmineRouterController {
+public class RouterController {
 	
 	@GetMapping("/justification/add")
 	public String addJustification() {
